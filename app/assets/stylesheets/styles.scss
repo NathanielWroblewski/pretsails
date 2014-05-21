@@ -1,0 +1,77 @@
+html, body {
+  background: white;
+  color: #444;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.carrois {
+  font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+.baskerville {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.centered {
+  text-align: center;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+#logo {
+  margin-top: 10px;
+
+  img {
+    height:35px;
+    display:inline-block;
+    margin-bottom: 25px;
+    margin-right: 5px;
+  }
+
+  h1 {
+    color: #444;
+    display: inline-block;
+  }
+}
+
+.splash {
+  padding: 0;
+  margin-bottom: 40px;
+
+  img {
+    margin: 0;
+  }
+
+  h3 {
+    color: white;
+    position: absolute;
+    background-color: rgba(#e7e7e7, 0.7);
+    bottom:40px;
+    padding-left: 7%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    left:0;
+    right: 0;
+    /*text-shadow: -1px -1px 0 #444,
+                  1px -1px 0 #444,
+                 -1px  1px 0 #444,
+                  1px  1px 0 #444;*/
+  }
+}
+
+.pretzels {
+  img:hover {
+    opacity: 0.8;
+  }
+
+  p {
+    clear: both;
+  }
+}
