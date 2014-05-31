@@ -12,11 +12,12 @@
   .small-12.columns
     - @pretzels.each do |pretzel|
       .small-6.large-3.columns
-        = image_tag pretzel.image_url
-        %h4.carrois
-          %span.left= pretzel.name
-          %span.right= number_to_currency(pretzel.price, precision: 0)
-        %p.baskerville{style: 'color: #777'}= pretzel.salt
+        = link_to pretzel do
+          = image_tag pretzel.image_url
+          %h4.carrois
+            %span.left= pretzel.name
+            %span.right= number_to_currency(pretzel.price, precision: 0)
+          %p.baskerville{style: 'color: #777'}= pretzel.salt
 .row.footer
   .show-for-medium-up
     .medium-8.columns.left-side

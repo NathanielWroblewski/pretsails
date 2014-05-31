@@ -1,0 +1,16 @@
+.row
+  .small-12.columns
+    #logo
+      = link_to root_path do
+        = image_tag 'http://d2b5z4qak7c6da.cloudfront.net/pretsails.png'
+        %h1.carrois PRETSAILS
+.row
+  .small-8.columns
+    = image_tag @pretzel.image_url
+  .small-4.columns.info.centered
+    %h3.carrois.lt-grey= number_to_currency(@pretzel.price)
+    = link_to 'ADD TO CART', '#', class: 'button'
+    %h1.carrois= @pretzel.name.upcase
+    %p{style: 'color: #777'}= @pretzel.salt
+    - @pretzel.description.split("\n").each do |paragraph|
+      %p{style: 'text-align: left;'}= paragraph

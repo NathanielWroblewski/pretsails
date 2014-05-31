@@ -17,7 +17,8 @@ pretzels = [
     name: 'Clove Hitch',
     price_in_cents: 1000,
     salt: 'San Francisco Bay Salt',
-    description: 'San Francisco Bay Sourdough Pretzel',
+    description: "The Bowline is a masterpiece, individually crafted for effortless pairing with premium mustards and two-fingers of Scotch, or to compliment a black walnut dacquise.  Wild yeasts in the San Francisco air impart a unique tang to this 'San Francisco sourdough', with a portion of the original mother dough still starting each and every sourdough pastry we make.
+  Adorned with Agean Sea salt and flavored with seaspray from the river Spey, more than an indulgence, this smoky and full-bodied pretzel is a tribute to man’s determination to use the resources of nature in refreshing the mind and body and enjoying to the full the senses with which he has been endowed.  Partake in a pretzel rennaisance.",
     image_url: 'http://d2b5z4qak7c6da.cloudfront.net/pretzel.jpg'
   },
   {
