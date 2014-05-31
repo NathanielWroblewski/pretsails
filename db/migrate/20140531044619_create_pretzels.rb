@@ -3,7 +3,7 @@ class CreatePretzels < ActiveRecord::Migration
     create_table :pretzels do |t|
       t.string :image_url
       t.string :name
-      t.integer :price
+      t.integer :price_in_cents
       t.string :salt
       t.text :description
     end

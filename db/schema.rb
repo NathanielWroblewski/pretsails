@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 20140531044619) do
   create_table "pretzels", force: true do |t|
     t.string  "image_url"
     t.string  "name"
-    t.integer "price"
+    t.integer "price_in_cents"
     t.string  "salt"
     t.text    "description"
   end
