@@ -75,3 +75,49 @@ html, body {
     clear: both;
   }
 }
+
+.footer {
+  padding-top: 100px;
+  margin-bottom: 30px;
+
+  .left-side {
+    opacity: 0.3;
+  }
+
+  img {
+    height: 85px;
+    display:inline-block;
+    margin-right: 5px;
+    margin-bottom: 55px;
+  }
+
+  .caption {
+    display: inline-block;
+  }
+
+  h1 {
+    margin-bottom: 0;
+    color: #444;
+  }
+
+  p {
+    color: #777;
+    margin-bottom: 0;
+  }
+
+  a {
+    color: #777;
+    opacity: 0.5;
+    padding-right: 15px;
+
+    &:hover {
+      color: #444;
+      opacity: 0.8;
+    }
+  }
+
+  .links {
+    padding-top: 35px;
+    float: right;
+  }
+}

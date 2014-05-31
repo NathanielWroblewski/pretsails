@@ -5,33 +5,46 @@
       %h1.carrois PRETSAILS
   .small-12.columns.splash
     = image_tag 'splash.jpg'
-    %h3.baskerville Snacks for Sailing
+    %h3.baskerville{style: 'display:none'} Snacks for Sailing
 .row.pretzels
   .small-12.columns.centered
-    %h2.carrois.lt-grey PRETZELS
+    %h1.carrois.lt-grey PRETZELS
   .small-12.columns
-    .small-6.medium-3.columns
+    .small-6.large-3.columns
       = image_tag 'pretzel.jpg'
-      %h3.carrois
+      %h4.carrois
         %span.left BOWLINE
         %span.right $25
       %p.baskerville{style: 'color: #777'} Agean Sea Salt
-    .small-6.medium-3.columns
+    .small-6.large-3.columns
       = image_tag 'pretzel.jpg'
-      %h3.carrois
+      %h4.carrois
         %span.left CLOVE HITCH
         %span.right $10
       %p.baskerville{style: 'color: #777'} East Bay Sea Salt
-    .small-6.medium-3.columns
+    .small-6.large-3.columns
       = image_tag 'pretzel.jpg'
-      %h3.carrois
+      %h4.carrois
         %span.left FIGURE EIGHT
         %span.right $15
       %p.baskerville{style: 'color: #777'} Black Sea Salt
-    .small-6.medium-3.columns
+    .small-6.large-3.columns
       = image_tag 'pretzel.jpg'
-      %h3.carrois
+      %h4.carrois
         %span.left SQUARE KNOT
         %span.right $20
       %p.baskerville{style: 'color: #777'} Mediterranean Sea Salt
-
+.row.footer
+  .show-for-medium-up
+    .medium-8.columns.left-side
+      = image_tag 'pretsails.png'
+      .caption
+        %h1.carrois PRETSAILS
+        %p Handcrafted Pretzels for Yachtsmen
+    .medium-4.columns.show-for-medium-up
+      .links
+        = link_to 'Facebook', '#'
+        = link_to 'Twitter', '#'
+  .small-12.columns.centered.show-for-small-only
+    = link_to 'Facebook', '#'
+    = link_to 'Twitter', '#'
