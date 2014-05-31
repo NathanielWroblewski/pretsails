@@ -4,3 +4,7 @@ LOG:  record with zero length at 0/2C90FB8
 LOG:  redo is not required
 LOG:  database system is ready to accept connections
 LOG:  autovacuum launcher started
+ERROR:  database "pretsails_development" already exists
+STATEMENT:  CREATE DATABASE "pretsails_development" ENCODING = 'unicode'
+ERROR:  database "pretsails_test" already exists
+STATEMENT:  CREATE DATABASE "pretsails_test" ENCODING = 'unicode'
